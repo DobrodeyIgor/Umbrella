@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<!-- Стили писать здесь через селекторы -->
+<style>
+   .d-flex2 {
+	    display: flex;
+      flex-direction: column;
+  	  min-height: 600px;
+      gap: 10px;
+     margin-top: 10px;
+  }
+
+  .d-21 {
+    max-height: 100px;
+    background-color: #B38FFA;
+  }
+  .d-22 {
+    flex-grow: 1;
+    background-color: #B38FFA;
+  }
+  .d-23 {
+    height: 100px;
+    background-color: #B38FFA;
+  }
+
+</style>
+</head>
+<!-- 
+  Задачи по display flex:
+
+  2. чтобы блоки располагались друг под другом. 1 блок имеет макс высоту 100px, 3 блок - 100px. 
+  2 блок растягивается автоматически на всю остальную высоту экрана даже при изменении высоты экрана.
+
+-->
+
+<body>
+
+  <div class="d-flex2">
+    <div class="d-21">1</div>
+    <div class="d-22">2</div>
+    <div class="d-23">3</div>
+  </div>
+
+</body>
+</html>
